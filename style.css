@@ -1,0 +1,190 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.container {
+    padding-right: 250px;
+    padding-left: 250px;
+}
+
+.link {
+    color: #686868;
+    text-decoration: none;
+    transition: all .4s;
+}
+
+.link:hover {
+    color: rgb(52, 38, 38);
+    text-decoration: underline;
+}
+
+.active {
+    color: black;
+    font-weight: 700;
+}
+
+.nw {
+    display: block;
+}
+
+.t2 {
+    font-weight: 700;
+}
+
+.home {
+    margin-bottom: 100px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ih {
+    margin-top: 20px;
+}
+
+.n9 {
+    float: left;
+    transform: rotate(-90deg);
+}
+
+.about {
+    background-color: #F6F6F6;
+    height: 400px;
+    padding-top: 100px;
+    padding-bottom: 180px;
+}
+
+.skills {
+    padding-bottom: 180px;
+}
+.t-container {
+    padding-right: 400px;
+    padding-left: 400px;
+}
+
+.t90 {
+    margin-top: 90px;
+}
+
+.t99 {
+    padding-top: 90px;
+}
+
+.t70 {
+    margin-top: 70px;
+}
+
+.t24d40 {
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+
+.n80 {
+    margin-bottom: 80px;
+}
+
+.blcs {
+    margin-bottom: 110px;
+}
+
+.t110 {
+    margin-top: 110px;
+}
+
+.portfolio {
+    background-color: #F6F6F6;
+    margin-bottom: 90px;
+
+}
+
+.b90 {
+    margin: 30px 0;
+}
+
+.pd20 {
+    padding-bottom: 95px;
+}
+
+.bt20 {
+    margin-bottom: 20px;
+}
+
+.auto {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.vtkr-button {
+    display: inline-block  ;
+    text-decoration: none  ;
+    background-color: #000000  ;
+    color: #ffffff  ;
+    border: 0px solid #000000  ;
+    border-radius: 31px  ;
+    font-size: 14px  ;
+    padding: 8px 38px  ; 
+    transition: all 0.8s ease  ;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 85px;
+}
+
+.container2 {
+    padding-left: 550px;
+    padding-right: 550px;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.cdn23 {
+    color: black;
+    transition: all .3s;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cdn23:hover {
+    color: rgb(109, 163, 243);
+}
+
+.dtt2 {
+    color: #828282;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 120px;
+}
+
+@media screen and (max-width: 376px) {
+    .hd {
+        display: none;
+    }
+    .n9 {
+        display: none;
+    }
+
+    .navbar {
+        display: none;
+    }
+    .dd82 {
+        display: none;
+    }
+
+}
